@@ -1,0 +1,53 @@
+
+p{
+    position: static;
+}
+body{
+    margin:0px;
+}
+/*#mainContainer p:nth-of-type(2){
+    position:relative;
+    left: 50px;
+    top: 20px;
+}*/
+.relative
+{
+    position:relative;
+    left: 50px;
+    top: 20px;
+}
+.absolute{
+    position:absolute;
+    right:0px;
+    top: 0px;
+    margin: 0px;
+    padding: 5px;
+    background-color: lightgray;
+    color: white;
+}
+.fixed{
+    position:fixed;
+    background-color: lightgray;
+    color: white;
+    padding: 5px;
+    left: 40%;
+}
+.float{
+    float:left;
+    width:100px;
+    margin:10px;
+}
+.col1
+{
+    float: left;
+    width: 60%;
+    margin: 10px;
+     
+}
+.col2
+{
+    float: left;
+    width: 30%;
+    margin: 10px;
+     
+}
